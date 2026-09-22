@@ -7,7 +7,7 @@ Choose these commands to run after finalizing your work:
 ```bash
 # Always run these commands before finalizing your work
 npm run typecheck
-npx oxlint -c oxlint.config.mjs path/to/changed/files
+vp lint path/to/changed/files
 npm run format:write:files path/to/changed/files
 npm run build
 

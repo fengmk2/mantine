@@ -45,7 +45,7 @@ export default Layout(meta);
 
 - Install the [editorconfig](https://editorconfig.org/) extension for your editor.
 - Fork the [repository](https://github.com/mantinedev/mantine), then clone or download your fork.
-- Run `nvm use` to switch to the Node version specified in `.nvmrc` file ([install nvm](https://github.com/nvm-sh/nvm)).
+- Run `nvm use "$(cat .node-version)"` to switch to the Node version specified in `.node-version` ([install nvm](https://github.com/nvm-sh/nvm)).
 - Install dependencies with yarn – `yarn`
 - Set up the project – `npm run setup`
 - Build a local version of all packages – `npm run build all`
