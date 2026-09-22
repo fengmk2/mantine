@@ -5,7 +5,7 @@
 Run these after every edit cycle — they take seconds:
 
 ```bash
-npx oxlint -c oxlint.config.mjs path/to/changed/files
+vp lint path/to/changed/files
 npm run format:write:files path/to/changed/files
 
 # Run tests for specific path related to your changes

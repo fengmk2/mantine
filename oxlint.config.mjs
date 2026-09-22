@@ -1,5 +1,5 @@
-import { defineConfig } from 'oxlint';
 import { oxlint } from 'oxc-config-mantine';
+import { defineConfig } from 'oxlint';
 
 export default defineConfig({
   ...oxlint,
